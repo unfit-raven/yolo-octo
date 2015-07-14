@@ -1,0 +1,32 @@
+// Pseudocode for hotel_occupancy.py
+
+// Declare variables
+total_rooms = 0
+rooms_occupied = 0
+rooms_vacant = total_rooms - rooms_occupied
+occupancy_rate = rooms_occupied/total_rooms
+floors will be input from user (converted to int)
+
+// Ask user for the number of floors in hotel
+floors = int input “Please enter the number of floors in the hotel: “
+
+// loop once for each floor, ask user for number of 
+// rooms and number occupied
+for floor in range(floors):
+	rooms = int input “Please enter the number of rooms”
+	total_rooms += rooms
+	occupied = int input “Please enter the number occupied”
+	rooms_occupied += occupied
+
+// Calculate number of rooms vacant and occupancy rate
+rooms_vacant = rooms_vacant = total_rooms - rooms_occupied
+occupancy_rate = rooms_occupied/total_rooms
+
+// Display info
+print total_rooms
+print rooms_occupied
+print rooms_vacant
+print occupany_rate
+
+
+

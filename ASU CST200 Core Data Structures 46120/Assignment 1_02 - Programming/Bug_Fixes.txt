@@ -1,0 +1,23 @@
+Bug Fixes
+
+1. Added missing ';' to 'result = input % NUM;' based on first compile. 
+	Original compile resulted in compile time error due to missing semi-colon.
+
+2. 'final int NUM = 1;' moved down to variables and out of main method
+
+3. 'System.out.println("Enter an integer number: ");' changed to 'System.out.print("Enter an integer number: ");' to resolve input 
+	dropping to next line
+		also changed "enter an integer number" to Enter any number: 
+
+3. changed 'input = scan.nextLine();' to 'scan.nextInt();'
+
+4. if (result = 0) to if (result == 0) 
+
+5.  System.out.println("Number " + input + " is odd.");  - changed 'print' to 'println'
+
+6. System.out.println("Number " + input + " is even."); - see # 5
+
+7. Logical error - any int entered is odd - 
+	Changed NUM from 1 to 2
+	Changed initial "if" odd to even
+	changed else if even to odd

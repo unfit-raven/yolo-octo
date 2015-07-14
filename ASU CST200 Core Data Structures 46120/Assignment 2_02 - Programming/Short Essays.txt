@@ -1,0 +1,137 @@
+QUESTION 1		- DONE
+
+Consider the following snippet of code:
+
+int num = 4;
+
+int num2 = 742538931;
+
+String place = "Mesa, Arizona";
+
+String txt = null;
+
+From a Java perspective, all of these variables take up the same amount of space. Why is this? Hint: are object variables treated differently than primative variables?
+
+Object variables are not treated differently from primative variables in the sense that they simply hold the location of where that object/value is stored in memory. All variables are a reference. They do not hold the actual value themselves, and thus the identifiers are the same size. 
+
+------------------------------
+
+QUESTION 2		- DONE
+
+Assume you have the following code:
+
+String original = "Core Data Structures";
+
+String change;
+
+Write an assignment for change that initializes it to the characters stored in  original with all 'e' characters changed to 'j'. 
+
+change = original.replace('e', 'j');
+
+--------------------------------
+
+QUESTION 3		- DONE
+
+Consider the following code:
+
+String s1 = "Programming in Java is fun!"
+
+String s2 = s1.toUpperCase();
+
+String s3 = s2;
+
+How many String objects (not variables) does this code create? What if the last line read String s3 = s1.toLowerCase();?
+
+2 String objects as it is String s3 just points to 's1.toUpperCase();' and does not actually create a new String object. If String s3 = 's1.toLowerCase();', then the code will create 3 String objects. 
+
+-----------------------------------
+
+QUESTION 4		- DONE
+
+Write a series of expressions using the nextInt method to generate random numbers in the following specified ranges, including both endpoints. Use the version of the nextInt method that accepts a single integer parameter.
+
+5 to 25
+-10 to 0
+
+randomOne = generator.nextInt(21) + 5;
+randomTwo = generator.nextInt(11) - 10;
+
+---------------------------------------
+
+QUESTION 5		- DONE
+
+Write two lines of code that prompt the user for a double value, and then print the result of raising that value to the third power.
+
+System.out.print("Enter a number: "); double value = scan.nextDouble(); 
+value = Math.pow(value, 3); System.out.println(value);
+
+----------------------------------------
+
+QUESTION 6		- DONE
+
+Write a declaration for an enumerated type that represents the days of the week.
+
+enum daysOfWeek {sunday, monday, tuesday, wednesday, thursday, friday, saturday}
+
+---------------------------------------
+
+QUESTION 7		- DONE
+
+What is wrong with the following code fragment? Will this code compile if it is part of an otherwise valid program?
+
+if (form_completed = true)
+ System.out.println ("The form has been completed.");
+
+ No, the code will not compile. The condition statement contains the assignment operator, which results in an assignment instead of an equality. The condition statement should contain the equality operator '==' instead of '='. 
+
+ --------------------------------------
+
+ QUESTION 8
+
+Imagine you have a program calculating average temperate over the day. The program stores the sum of all measured temperates in a variable called sum, and the number of measurements in count. A snippet to warn the user when the average tempurate is over 90 is given below.
+
+
+if(((float)sum / count) > 90 && count > 0)
+
+  System.out.println("Warning: the average tempurate is over 90.");
+
+
+What happens if this code is executed before a tempurature reading has been taken?
+
+Can the code be slightly altered to prevent this behavior from happening?
+
+---------------------------------------
+
+QUESTION 9
+
+Convert the while loop below into an equivalent for loop. (It needs to produce the same output.)
+
+int num = -10;
+while (num < 0)
+{
+num++;
+System.out.println (num);
+}
+
+for (int num = -9; num <= 0; num++)
+		System.out.println(num);
+
+--------------------------------------
+
+QUESTION 10		- DONE
+
+Consider the following code:
+
+int fillvalue = 0;
+for(int i = 1; i < 10; i++)
+{
+ for(int j = 1; j < 10; j++)
+ {
+ System.out.print(fillvalue);
+ }
+ System.out.print("\n");
+}
+How many times will the number 0 be printed?
+
+0 will be printed 81 times - in a 9x9 block of 0s. 
+------------------------------------------

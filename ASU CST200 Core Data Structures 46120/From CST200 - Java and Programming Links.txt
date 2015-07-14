@@ -1,0 +1,13 @@
+Java and Programming Links
+You may find the following resources useful:
+
+Java API: http://docs.oracle.com/javase/7/docs/api/
+Java for Python Programmers: http://interactivepython.org/runestone/static/java4python/index.html
+Home and learn: http://www.homeandlearn.co.uk/java/java.html
+Java tutorial point: http://www.tutorialspoint.com/java/
+Hackerrank: https://www.hackerrank.com
+Topcoder: http://www.topcoder.com/
+Think Java - How to Think Like a Computer Scientist: http://www.greenteapress.com/thinkapjava/thinkapjava.pdf
+Java Basics: http://www.leepoint.net/JavaBasics/index.html & Java Notes: http://www.leepoint.net/notes-java/index.html
+Introduction to Programming Using Java, Sixth Edition: http://math.hws.edu/javanotes/
+How NOT to go about a programming assignment: http://di002.edv.uniovi.es/~cernuda/noprog_ENG.html0u519y

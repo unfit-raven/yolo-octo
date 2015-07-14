@@ -1,0 +1,47 @@
+Java - Grade Calculator Pseudo Code
+
+Used for application
+
+import scanner class
+
+create class
+
+main method
+
+declare variables:
+	String student;	For student name
+	int assignments;		How many assignments the user wishes to enter a grade for
+	int count				For holding how many iterations are performed
+	double calcGrade;	For calculating grade (user can enter as a double, ie 87.5)
+	
+
+
+	create scanner object
+
+	Get student name from user
+	assign name to student
+--
+	Create loop with "assignments" iterations
+	Get assignment number 1 (count = 1) grade
+	add grade to calcGrade
+
+	Get assignment number 2 (count = 2) grade
+	add grade to calcGrade
+
+	Repeat until loop finishes all iterations
+--
+	
+	calcGrade = calcGrade / count;
+
+	if calcGrade >= 90.0
+		calcGrade = "A"
+	else if calcGrade >= 80.00
+		calcGrade = "B"
+	else if calcGrade >= 70.00
+		calcGrade = "C"
+	else if calcGrade >= 60.0
+		calcGrade = "D"
+	else
+		calcGrade = "E"
+
+	Display student and calcGrade

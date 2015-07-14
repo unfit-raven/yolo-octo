@@ -1,0 +1,32 @@
+Assignment 1.02: Programming
+Attached Files:
+File A01_02_bugged.java (541 B)
+In this assignment you will practice debugging a simple program and writing code to calculate various formulas.
+
+Q1: Download the attached program, A01_02_bugged.java and try running it in Java. The program contains a total of 5 errors (a combination of compile-time errors and logical errors).  Debug the program to identify and rectify all the errors.  For each bug fixed, explain it and list its general type. Below are the expected results.  Hint: look at the spacing in the output - details are important. [15 points]
+Output 1: 
+
+Enter any number: -3 
+Number -3 is odd.
+
+Output 2: 
+Enter any number: 0 
+Number 0 is even. 
+
+Output 3: 
+Enter any number: 126 
+Number 126 is even.  
+
+Q2: Write an application that displays your initials in large block letters. Make each large letter out of the corresponding regular character. Please see the following example for JAL. [10 points]
+PP 1.1 - JAL 
+Q3: Create a version of the TempConverter program (slide 35, chapter 2) to convert from Fahrenheit to Kelvin. Read the Fahrenheit temperature from the user. [10 points]
+Q4: Write a program that reads integers representing a time duration in hours, minutes, and seconds, and then prints the equivalent total number of seconds. [10 points]
+Output 1: 
+Enter hours: 1
+Enter minutes: 28
+Enter seconds: 42
+The total seconds is 5322
+
+
+Submission Process: Please name your files (and classes) as "LastName_A01Q1.java", "LastName_A01Q2.java", "LastName_A01Q3.java", and "LastName_A01Q4.java", where LastName is your last name.
+

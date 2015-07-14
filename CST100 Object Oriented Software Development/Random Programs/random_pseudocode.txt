@@ -1,0 +1,43 @@
+// Pseudocode for hotel_occupancy.py
+
+// Declare variables
+total_rooms = 0
+rooms_occupied = 0
+rooms_vacant = total_rooms - rooms_occupied
+occupancy_rate = rooms_occupied/total_rooms
+floors will be input from user (converted to int)
+
+// Ask user for the number of floors in hotel
+floors = int input “Please enter the number of floors in the hotel: “
+
+// loop once for each floor, ask user for number of 
+// rooms and number occupied
+for floor in range(floors):
+	rooms = int input “Please enter the number of rooms”
+	total_rooms += rooms
+	occupied = int input “Please enter the number occupied”
+	rooms_occupied += occupied
+
+// Calculate number of rooms vacant and occupancy rate
+rooms_vacant = total_rooms - rooms_occupied
+occupancy_rate = rooms_occupied/total_rooms
+
+// Display info
+print total_rooms
+print rooms_occupied
+print rooms_vacant
+print occupancy_rate
+ --------------------------------------------------------------------------------
+ 
+# Pseudocode for average_rainfall.py
+
+number_of_years = int input "enter the number of years: "
+
+for each_year in range(number_of_years)
+	for each_month in range(12)
+		inches_of_rainfall = eval input "enter inches of rain for month: "
+		total_rainfall += inches_of_rain
+
+total_months = number_of_years * 12
+average_rainfall = total_rainfall/total_months
+

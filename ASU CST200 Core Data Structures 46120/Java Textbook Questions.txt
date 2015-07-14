@@ -1,0 +1,6 @@
+1. If Java has both a compiler and an interpreter, what exactly is it? Is it a compiled language, or is it an interpreted language? Or both?
+2. Java is archetecture neutral, meaning it can run on any processor that has a Java interpreter or bytecode compiler. Essentiall, the Java source code is compiled by the Java compiler, turning it into something called Java bytecode, which is similar to machine language code. If there's a java interpreter or bytecode compiler for a processor type, then the Java program can be executed - the source code itself is not machine specific. 
+
+But - does there need to be both an interpreter and a compiler? Can there just be one or the other? If so, why would one choose one way to compile the language over another? Additionally, would using the interpreter make Java an interpreted language, since the Java bytecode was compiled by a compiler, but then interpreted into machine language? 
+
+3.

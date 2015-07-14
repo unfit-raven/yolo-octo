@@ -1,0 +1,112 @@
+Assignment 2.02: Programming
+In this assignment you will practice using the Java API, using conditions, and using loops.
+
+Q1: Write a program that computes and displays the distance between two points. Use the following formula and prompt the user for four doubles that make up the two points. (Display any number of decimals.) [10 points]:
+Distance formula
+Sample Output 1 (updated 7/5)
+
+What is x1? 3.4
+
+What is y1? 2.3
+
+What is x2? 4.5
+
+what is y2? 4.3
+
+The distance is 2.2825
+
+Q2: Write an application that reads the lengths of the sides of a triangle from the user, and prints its area. The formula is shown below, where s represents half of the perimeter of the triangle, and a, b, and c represent the lengths of the three sides. Print the area to three decimal places. [10 points]
+Area formula
+Sample Output 1 (updated 7/5)
+
+What is s? 16
+
+What is a? 4
+
+What is b? 13
+
+What is c? 15
+
+The area is 24
+
+Q3: Write a program that computes and displays the result of rolling several 6-sided dice and adding a number. Prompt the user for the number of dice and the number to add. Display values read from the user as shown below. [15 points].
+Sample Output 1
+
+How many dice would you like to roll? 3
+
+What should be added to the result? 2
+
+The result of rolling 3D6+2 is 11.
+
+Sample Output 2
+
+How many dice would you like to roll? 4
+
+What should be added to the result? 0
+
+The result of rolling 4D6+0 is 18.
+
+Q4: Write a program that reads an integer value representing a year from the user. The purpose of the program is to determine if the year is a leap year (and therefore has 29 days in February) in the Gregorian calendar. A year is a leap year if it is divisible by 4, unless it is also divisible by 100 but not 400. Produce an error message for any input value less than 1582 (the year the Gregorian calendar was adopted). [10 points]
+Sample Output 1
+
+What year should be checked? 2003
+
+That is not a leap year.
+
+Sample Output 2
+
+What year should be checked? 2004
+
+That is a leap year.
+
+Sample Output 3
+
+What year should be checked? 1900
+
+That is not a leap year.
+
+Sample Output 4 (updated 7/5)
+
+What year should be checked? 2000
+
+That is a leap year.
+
+Q5: Write a program that plays the Hi-Lo guessing game with numbers. The program should pick a random number between 1 and 100 (inclusive), then repeatedly prompt the user to guess the number. On each guess, report to the user that they are correct or that the guess is high or low. Continue accepting guesses until the user guesses correctly or chooses to quit. A user may choose to quit midgame by entering 0. Count the number of guesses and report that value when the user guesses correctly. At the end of each game (by quitting or a correct guess), prompt to determine whether the user wants to play again. Continue playing games until the user chooses to stop. [20 points]
+Sample Output 1
+
+What number do you guess? 50
+
+That's too high.
+
+What number do you guess? 25
+
+That's too high.
+
+What number do you guess? 13
+
+That's too low.
+
+What number do you guess? 19
+
+That's too low.
+
+What number do you guess? 22
+
+That's correct! You made 5 guesses.
+
+Would you like to play again? N
+
+Sample Output 2
+
+What number do you guess? 50
+
+That's too high.
+
+What number do you guess? 0
+
+Quitting game.
+
+Would you like to play again? N
+
+Q6: Create modified versions of the Stars program to print the following pattern. [15 points]
+     

@@ -1,0 +1,51 @@
+Devide part2 to smaller methods
+
+1/encryption
+
+a/ def a method that accepts an original character a integer key and return a new encrypted char
+
+def integer_encrypted_char(original_char, key):
+
+  * convert original_char to ascii_integer_char by using ord built in method
+
+  * if ....
+
+     return chr(ascii_integer_char + key - 127 + 32)
+
+  * else:
+
+     return ....
+
+b/ define a method that accepts a string, an integer key, and return encrypted message
+
+def encrypted_string_message(message, key):
+
+  * declare an empty string result = ""
+
+  * for original_char in message:
+
+    * declare a temporary character inside for loop temp_char = ""
+
+    * temp_char = integer_encrypted_char(original_char, key)
+
+    * result = result + temp_char
+
+   return result
+
+2/decryption: do the same
+
+a/ def char_decrpytion(encrypt_char, key), return a decrypted_char
+
+b/ def string_message_decryption(encrypted_message, key), return a decrypted_message
+
+encrypted_message = input(.....)
+
+c/ for key in (1, 101):
+
+      decrypted_message = string_message_decryption(encrypted_message, key)
+
+     print("Key:", key, "-> Decoded Message: ", decrypted_message)
+
+
+¯\_(ツ)_/¯
+~\_(“/)_/~
